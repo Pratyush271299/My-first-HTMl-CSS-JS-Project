@@ -1,0 +1,137 @@
+body {
+  background-color: #d8edf3;
+  font-family: Karla
+}
+.mainContainer {
+  position: relative;
+  margin: 180px;
+  width: 500px;
+  height: 320px;
+  background: grey;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.35);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.top-section {
+  height: 45%;
+  background-color: white;
+}
+
+#id-1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: #2f8a98
+}
+
+#id-2 {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  color: green;
+}
+
+#id-3 {
+  position: absolute;
+  left: 20px;
+  top: 75px;
+  color: grey;
+  font-size: 13.5px;
+}
+
+.bottom-section {
+  position: relative;
+  height: 55%;
+}
+
+.bottom-left  {
+  display: inline-block;
+  width: 250px;
+  height: 100%;
+  background-color: #2f8a98;
+  position: relative;
+}
+
+#click {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  box-shadow: .5px 1px 1px black;
+  position: absolute;
+  bottom: 20px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  width: 150px;
+  height: 25px;
+}
+
+#click:hover {
+  background: #0c6717;
+  border: 1px #0c6717;
+  width: 165px;
+  height: 30px;
+  cursor: pointer; 
+}
+
+#id-4 {
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 20px;
+}
+
+#id-5 {
+  position: absolute;
+  color: white;
+  font-size: 26px;
+  top: 50px;
+  left: 20px;
+  font-weight: 700;
+}
+
+#id-6 {
+  opacity: 0.5;
+  position: absolute;
+  color: white;
+  font-size: .6rem;
+  top: 60px;
+  left: 75px;
+}
+
+#id-7 {
+  position: absolute;
+  color: white;
+  font-size: .8rem;
+  top: 85px;
+  left: 20px
+}
+
+.bottom-right {
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 100%;
+  background: #66B5CE;
+  overflow: auto;
+  }
+
+#id-8 {
+  display: inline-block;
+  color: white;
+  margin: 20px;
+}
+
+#id-9 {
+  opacity: 0.6;
+  padding: 0;
+  position: absolute;
+  color: white;
+  max-height: 100%;
+  top: 37px;
+  left: 21px;
+  font-size: 13px;
+  list-style: none;
+}
